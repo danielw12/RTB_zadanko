@@ -1,0 +1,128 @@
+#banner-box {
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+}
+
+.offers-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.offer-box {
+    width: 49%;
+    height: 98px;
+    margin: 1px;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.offer-box p {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.offer-box img {
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo {
+    width: 80%;
+    height: auto;
+    padding-top: 11px;
+    margin: 0 auto;
+    display: block;
+}
+
+.border-jump {
+    border: 1px solid black;
+}
+
+
+/*second baner*/
+
+.slider-banner {
+    width: 160px;
+    height: 600px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.x {
+    position: absolute;
+    top: -2px;
+    right: 4px;
+    color: #9d9d9d;
+}
+
+.img-box {
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.img-box img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 150px;
+}
+
+.carousel {
+    height: 550px;
+    border: 1px solid #ddd;
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.name,
+.price {
+    text-align: center;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.check-btn {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 70%;
+    background-color: orangered;
+    padding: 5px;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.logo-2 {
+    width: 80%;
+    height: auto;
+    padding-top: 18px;
+    margin: 0 auto;
+    display: block;
+}
